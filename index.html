@@ -193,19 +193,6 @@ Any references to SWC or DC that remain should be interepreted as this workshop 
 -->
 <h2 id="schedule">Schedule</h2>
 
-<!-- DO NOT EDIT SURVEY LINKS -->
-<p><em>Surveys</em></p>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
 
 <!--
   Collaborative Notes
@@ -223,6 +210,21 @@ Any references to SWC or DC that remain should be interepreted as this workshop 
 </p>
 {% endif %}
 
+<p>
+Each session of the workshop will try and focus on different types of biological data, and multiple programming approach. 
+The sessions are paired, with morning A + B sessions using different data to C + D in the afternoon. 
+</p>
+<ul>
+<li>9.00 - 9.30	Setup &amps; Introduction</li>
+<li>9.30 - 10.30 Session A	</li>
+<li>10.30 - 11.00	Morning Tea	</li>
+<li>11.00 - 12.30	Session B	</li>
+<li>12.30 - 13.30	Lunch	</li>
+<li>13.30 - 15.00	Session C</li>
+<li>15.00 - 15.30	Aftenoon Tea	</li>
+<li>15.30 - 16.30	Session D</li>
+  <li>16.30 - 17.00	Wrap Up	</li>
+</ul>
 <hr/>
 
 <!--
@@ -244,13 +246,8 @@ Any references to SWC or DC that remain should be interepreted as this workshop 
 -->
 <h2 id="syllabus">Syllabus</h2>
 
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabys.html %}
-{% endif %}
+The content for each session is availale here: <a href="https://github.com/lonsbio/wellington">https://github.com/lonsbio/wellington
+</a>
 
 <hr/>
 
