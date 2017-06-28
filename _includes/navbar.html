@@ -34,7 +34,7 @@
       <ul class="nav navbar-nav">
 
 	{% comment %} Always show code of conduct. {% endcomment %}
-        <li><a href="{{ page.root }}/conduct/">Code of Conduct</a></li>
+        <li><a target="_blank" href="https://software-carpentry.org/conduct.html">Code of Conduct (SWC/DC)</a></li>
 
 	{% comment %} Show setup instructions, reference guide, and lesson episodes for lessons. {% endcomment %}
         {% if site.kind == "lesson" %}
@@ -65,7 +65,6 @@
 	{% endif %}
 
 	{% comment %} Always show license. {% endcomment %}
-        <li><a href="{{ page.root }}/license/">License</a></li>
 	{% if page.source %}
 	{% if page.source == "Rmd" %}
 	{% endif %}
